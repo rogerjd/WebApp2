@@ -27,6 +27,11 @@
         </dd>
 
     </dl>
+
+    @foreach (var pc in Model.PayChks)
+    {
+        @pc.Payee
+    }
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |

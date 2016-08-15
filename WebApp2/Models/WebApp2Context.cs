@@ -45,7 +45,7 @@ namespace WebApp2.Models
 
             var paychks = new List<PayChk>
             {
-                new PayChk {EmoID=1, Payee= "Joe Tuttle" }
+                new PayChk {EmpID=1, Payee= "Joe Tuttle" }
             };
             paychks.ForEach(p => ctx.PayChks.Add(p));
             ctx.SaveChanges();

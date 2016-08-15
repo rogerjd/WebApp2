@@ -8,7 +8,7 @@ namespace WebApp2.Models
     public class PayChk
     {
         public int ID { get; set; }
-        public int EmoID { get; set; }
+        public int EmpID { get; set; }
         public string Payee { get; set; }
 
         public virtual Emp Emp { get; set; }
