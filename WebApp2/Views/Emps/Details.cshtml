@@ -31,6 +31,8 @@
     @foreach (var pc in Model.PayChks)
     {
         @pc.Payee
+        @pc.Emp.FirstName
+        @pc.Emp.LastName
     }
 </div>
 <p>
