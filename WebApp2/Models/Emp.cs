@@ -10,5 +10,7 @@ namespace WebApp2.Models
         public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+
+        public virtual ICollection<PayChk> PayChks { get; set; }
     }
 }

@@ -199,6 +199,7 @@
     <Compile Include="Controllers\EmpsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PayChksController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -206,6 +207,7 @@
     <Compile Include="Models\Emp.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\PayChk.cs" />
     <Compile Include="Models\WebApp2Context.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -275,6 +277,11 @@
     <Content Include="Views\Emps\Details.cshtml" />
     <Content Include="Views\Emps\Edit.cshtml" />
     <Content Include="Views\Emps\Index.cshtml" />
+    <Content Include="Views\PayChks\Create.cshtml" />
+    <Content Include="Views\PayChks\Delete.cshtml" />
+    <Content Include="Views\PayChks\Details.cshtml" />
+    <Content Include="Views\PayChks\Edit.cshtml" />
+    <Content Include="Views\PayChks\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

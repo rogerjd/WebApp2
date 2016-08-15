@@ -26,6 +26,8 @@ namespace WebApp2.Models
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
+
+        public System.Data.Entity.DbSet<WebApp2.Models.PayChk> PayChks { get; set; }
     }
 
     public class DbInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<WebApp2Context>
