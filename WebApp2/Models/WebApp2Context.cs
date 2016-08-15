@@ -42,6 +42,13 @@ namespace WebApp2.Models
             };
             emps.ForEach(e => ctx.Emps.Add(e));
             ctx.SaveChanges();
+
+            var paychks = new List<PayChk>
+            {
+                new PayChk {EmoID=1, Payee= "Joe Tuttle" }
+            };
+            paychks.ForEach(p => ctx.PayChks.Add(p));
+            ctx.SaveChanges();
         }
     }
 }
